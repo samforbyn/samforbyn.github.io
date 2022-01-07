@@ -8622,12 +8622,18 @@ i#pythonlogo{
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-
-			div#skills{
+			#skillSec{
 				display: flex;
 				flex-direction: row;
-				flex-wrap: wrap;
-				justify-content: center;
 				align-items: center;
-				text-align: center;
+				justify-content: center;
+				width: 100vw;
 			}
+			div#skills{
+				display: flex;
+				flex-direction: column ;
+			}
+			/* div#skills3{
+				display: flex;
+				flex-direction: row;
+			} */
